@@ -1,12 +1,41 @@
 {
   "pages": [
-    "pages/index/index"
+    "pages/index/index",
+    "pages/types/types",
+    "pages/post/post"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#3A3A3E",
     "navigationBarTitleText": "微微聊",
     "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#9DACB7",
+    "selectedColor": "#34B457",
+    "backgroundColor": "#F7F7F9",
+    "borderStyle": "black",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/tabBar/index.png",
+        "selectedIconPath": "images/tabBar/index-hl.png"
+      },
+      {
+        "pagePath": "pages/topic/topic",
+        "text": "话题",
+        "iconPath": "images/tabBar/chat.png",
+        "selectedIconPath": "images/tabBar/chat-hl.png"
+      },
+      {
+        "pagePath": "pages/types/types",
+        "text": "分类",
+        "iconPath": "images/tabBar/node.png",
+        "selectedIconPath": "images/tabBar/node-hl.png"
+      }
+    ]
   },
   "networkTimeout": {
     "request": 10000,
